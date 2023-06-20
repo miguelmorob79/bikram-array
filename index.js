@@ -37,7 +37,7 @@ function potenciacion(a, b){
 
 //9.- Crea la función **esPrimo** que acepte como argumento **un número** y devuelva ****true si es primo y false si no lo es****
 
-
+function esPrimo()
 
 // 10.-  Crear la función **ordenarArray** que acepta como argumento **un array de números** y devuelva un **array ordenado de menor a mayor**
 
@@ -58,20 +58,16 @@ function obtenerImpares(array){
 
 // 12.- Crear la función **pintarArray** que acepte como argumento **un array** y devuelva **una cadena de texto Array entrada: [0, 1, 2] String salida: '[0, 1, 2]'**
 
-function pintarArray(array){
-    return array.toString  //aqui me he quedao
+    
 }
 // 13.- Crear la función **arrayMapi** que acepte como argumento **un Array y una función** y devuelva **un array en el que se haya aplicad
 
+const arrayMapi=(array)=>
+
+// 14.- Crear la función **eliminarDuplicados** que acepte como argumento **un array** y devuelva **un array en el que se hayan eliminado los duplicado
 
 
-// 14.- Crear la función **eliminarDuplicados** que acepte como argumento **un array** y devuelva **un array en el que se hayan eliminado los duplicados**
 
-
-
-function eliminarDuplicados(array) {
-    return [...new Set(array)];
-}
 
 
 
